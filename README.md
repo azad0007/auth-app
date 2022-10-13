@@ -10,7 +10,7 @@ Create a ```config.env``` file in the root directory and fill it with the follow
 ```
 PORT=5000
 
-DATABASE_CONNECTION="Your DB URI"
+MONGO_URI="Your DB URI"
 
 JWT_SECRET="Your JWT Secret key"
 JWT_EXPIRE="10min"

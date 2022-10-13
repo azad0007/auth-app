@@ -25,7 +25,7 @@ const LoginScreen = ({ history }) => {
 
     try {
       const { data } = await axios.post(
-        "/api/auth/login",
+        "https://authapp01.herokuapp.com/api/auth/login",
         { email, password },
         config
       );
